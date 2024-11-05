@@ -1,0 +1,67 @@
+.linked-list-visualizer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .controls input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .controls label {
+    margin-left: 20px;
+  }
+  
+  .list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .node {
+    display: flex;
+    align-items: center;
+    background-color: #5bc9b1;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 5px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .node.head {
+    background-color: #446ff2;
+  }
+  
+  .node.tail {
+    background-color: #e74c3c;
+  }
+  
+  .node.current {
+    background-color: #f39c12;
+  }
+  
+  .node-value {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .node-next {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  

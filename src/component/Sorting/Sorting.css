@@ -1,0 +1,409 @@
+/* Existing styles */
+.bar {
+  padding-top: 7px;
+  font-family: 'Roboto', sans-serif; /* Updated font for a modern look */
+  font-weight: 700;
+  display: inline-block;
+  color: white;
+  width: 40px;
+  margin-left: 6px;
+  background-color: #5bc9b1; /* Primary color */
+  align-self: flex-end; 
+  border-radius: 8px; /* Increased border-radius for softer corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.bar-sorted {
+  background-color: #b979ec; /* Secondary color */
+}
+
+.bar-swap {
+  background-color: #57a846; /* Success color */
+}
+
+.bar-min {
+  background-color: red; /* Alert color */
+}
+
+.bars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 90px; 
+  height: 60vh; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Space between brand and links */
+  align-items: center;
+  padding: 15px 20px; /* Increased padding for better touch targets */
+  background-color: #ffffff; /* Light background for contrast */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Slightly deeper shadow */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; /* Darker text for better readability */
+  transition: color 0.3s; /* Smooth transition on hover */
+  font-family: 'Teko', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: #446FF2; /* Color on hover */
+}
+
+.navbar-collapse {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: grey;
+  transition: color 0.2s; /* Transition on hover */
+}
+
+.nav-link:hover {
+  color: #446FF2; /* Primary color on hover */
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 1000;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #ffffff; /* White background */
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: .25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.controls-dropdown {
+  right: 0;
+  left: auto;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: .25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.2s; /* Transition effect */
+}
+
+.dropdown-item span {
+  margin-left: 10px;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa; /* Light grey on hover */
+}
+
+.alert {
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  background-color: #f8d7da;
+  color: #721c24;
+  border-color: #f5c6cb;
+}
+
+.btn {
+  padding: .375rem .75rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  background-color: #28a745; /* Success color */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s; /* Smooth transition */
+}
+
+/* Centering the controls in the viewport */
+.controls-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Full height of the viewport */
+  background-color: #f0f0f0; /* Optional: background color for contrast */
+}
+
+/* Enhanced Controls Styles */
+.controls {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  border-radius: 8px; /* Rounded corners for a modern look */
+}
+
+/* Button styles within controls */
+.controls button {
+  border: none; /* No border for buttons */
+  border-radius: 4px; /* Rounded corners for buttons */
+  color: #ffffff; /* Text color */
+  background-color: #446FF2; /* Button background color */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin: 0 0.5rem; /* Space between buttons */
+  padding: 0.5rem 1rem; /* Padding for buttons */
+  transition: background-color 0.2s, transform 0.2s; /* Smooth transition */
+  font-size: 1rem; /* Font size for buttons */
+}
+
+/* Adjust hover state */
+.controls button:hover {
+  background-color: #5f7bcd; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.btn:hover {
+  background-color: #5f7bcd; /* Change button color on hover */
+}
+
+.sort-btn {
+  background-color: #446FF2; /* Primary sort button color */
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.editor {
+  margin: 20px;
+}
+
+.editor textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.2s; /* Smooth border transition */
+}
+
+.editor textarea:focus {
+  border-color: #446FF2; /* Highlight border on focus */
+}
+
+/* New styles for input form */
+.input-array-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  font-family: Arial, sans-serif; /* Add a font family for consistency */
+}
+
+.input-array-form form {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa; /* Light background for form */
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for form */
+  transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
+}
+
+.input-array-form form:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover for depth */
+}
+
+.input-array-form label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #333; /* Darker color for better readability */
+}
+
+.input-array-form input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  transition: border-color 0.2s, box-shadow 0.2s; /* Smooth transition */
+}
+
+.input-array-form input[type="text"]:focus {
+  border-color: #446FF2; /* Highlight border on focus */
+  box-shadow: 0 0 5px rgba(68, 111, 242, 0.5); /* Glow effect on focus */
+}
+
+.input-array-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #446FF2; /* Primary button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s; /* Smooth transition */
+}
+
+.input-array-form button:hover {
+  background-color: #5f7bcd; /* Change button color on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.input-array-form button:active {
+  transform: translateY(1px); /* Press down effect on click */
+}
+
+
+#error {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #f8d7da; /* Alert background */
+  color: #721c24; /* Alert text color */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for error */
+  z-index: 1000; /* Ensure it's above other content */
+  display: none; /* Default to hidden */
+}
+
+.error-message {
+  color: red; /* Text color for the error message */
+  font-size: 14px; /* Adjust font size as needed */
+  margin-top: 5px; /* Space above the error message */
+  margin-left: 10px; /* Add left margin to move it to the right */
+  font-weight: bold; /* Make the text bold for emphasis */
+  background-color: #ffe6e6; /* Light red background for contrast */
+  border: 1px solid red; /* Solid red border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px; /* Space around the text */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for opacity */
+  opacity: 1; /* Fully visible by default */
+}
+
+/* Optional: Add a class for hidden state */
+.error-message.hidden {
+  opacity: 0; /* Hidden state */
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .navbar-brand {
+    font-size: 1.4rem; /* Slightly reduced font size */
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .nav-item {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 5px; /* Reduced padding for smaller screens */
+  }
+
+  .navbar-nav {
+    flex-direction: column; /* Stack nav items */
+    width: 100%; /* Full width */
+  }
+
+  .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px; /* Spacing between items */
+  }
+
+  .input-array-form {
+    flex-direction: column; /* Stack form elements */
+  }
+
+  .input-array-form input[type="text"],
+  .input-array-form button {
+    width: 100%; /* Full width for inputs and buttons */
+    margin-bottom: 10px; /* Spacing between stacked items */
+  }
+
+  .bars {
+    margin-top: 60px; 
+    height: 50vh; /* Adjusted height */
+  }
+}
+
+@media (max-width: 520px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items */
+    padding: 10px;
+  }
+
+  .bars {
+    margin-top: 30px;
+    height: 40vh; /* Further adjusted height */
+  }
+
+  .bar {
+    width: 20px; /* Reduced bar width */
+    margin-left: 3px; /* Less margin */
+  }
+
+  .editor {
+    margin: 10px; /* Reduced margin */
+  }
+
+  .editor textarea {
+    height: 150px; /* Adjusted height for smaller screens */
+  }
+
+  .alert {
+    width: 90%; /* Responsive width for alert */
+    left: 5%; /* Center alert */
+  }
+}

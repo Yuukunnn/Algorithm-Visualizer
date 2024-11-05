@@ -1,0 +1,128 @@
+/* .aboutUsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Teko", sans-serif; 
+}
+
+.aboutUsheader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aboutUstitle {
+  font-size: 3rem;
+  color: #333;
+  font-family: "Teko", sans-serif;
+}
+
+.aboutUsh1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: "Teko", sans-serif;
+}
+
+.aboutUsPcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.aboutUsP {
+  flex: 1 1 60%;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+  font-family: sans-serif;
+}
+
+.aboutUsGif {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.imgAboutUsGif {
+  width: 200%; 
+  max-width: 100%; 
+  height: auto; 
+  border: none;
+}
+
+.aboutUsH2 {
+  font-size: 2rem;
+  color: #333;
+  margin-top: 20px;
+  font-family: "Teko", sans-serif;
+}
+
+.aboutUsTeam {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+.aboutUsTeamMember1 {
+  flex: 1 1 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.aboutUsTeamMember1GIF {
+  border: none;
+  border-radius: 10%;
+  width: 300px;
+}
+
+.aboutUsTeamMember2 {
+  flex: 1 1 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.aboutUsTeamMember3 {
+  flex: 1 1 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.aboutUsTeamMember4 {
+  flex: 1 1 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.aboutUsTeamMember5 {
+  flex: 1 1 30%;
+  padding: 10px;
+  margin-right: 410px;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutUsPcontainer {
+    flex-direction: column;
+  }
+
+  .aboutUsP {
+    margin-bottom: 20px;
+  }
+
+  .aboutUsGif {
+    margin-bottom: 20px;
+  }
+
+  .aboutUsTeam {
+    flex-direction: column;
+  }
+
+  .aboutUsTeamMember1,
+  .aboutUsTeamMember2,
+  .aboutUsTeamMember3,
+  .aboutUsTeamMember4,
+  .aboutUsTeamMember5 {
+    margin-right: 0;
+  }
+  
+} */

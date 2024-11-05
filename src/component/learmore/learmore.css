@@ -1,0 +1,138 @@
+/* .flexbox-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: linear-gradient(to bottom, #f0f0f5, #ffffff);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.learMoreContainter details summary {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.learMoreContainter details p {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 1rem;
+  text-align: justify;
+
+}
+
+.summarySort {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.summarySort {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.summarySort ol li {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 1rem;
+  text-align: justify;
+
+}
+
+.summarySort p {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 1rem;
+  
+}
+
+.summarySort ul {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.summarySort ul li {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 1rem;
+  text-align: justify;
+
+}
+
+.learnMoreSortImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.learnMoreSortImages img {
+  border: none;
+  border-radius: 10%;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .learnMoreSortImages {
+    flex-direction: column;
+  }
+
+  .learnMoreSortImages img {
+    margin-right: 410px;
+  }
+
+  .learnMoreSortImages img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .learMoreContainter h1 {
+    font-size: 2rem;
+  }
+
+  .learMoreContainter details summary {
+    font-size: 1.5rem;
+  }
+
+  .learMoreContainter details p {
+    font-size: 1.2rem;
+  }
+
+  .summarySort {
+    font-size: 1.2rem;
+  }
+
+  .summarySort ol li {
+    font-size: 1.2rem;
+  }
+
+  .summarySort p {
+    font-size: 1.2rem;
+  }
+
+  .summarySort ul {
+    font-size: 1.2rem;
+  }
+
+  .summarySort ul li {
+    font-size: 1.2rem;
+  }
+
+  .learnMoreSortImages img {
+    width: 200px;
+  }
+}

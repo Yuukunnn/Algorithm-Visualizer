@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Teko:wght@300..700&display=swap");
+
+.quiz-body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+}
+
+.quiz-container {
+    width: 640px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white; /* Can change later */
+    color: black; /* Can change later */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 60px 70px;
+    gap: 20px;
+}
+
+.quiz-container h1 {
+    text-align: center;
+}
+
+.quiz-container hr {
+    height: 2px;
+    border: none;
+    background-color: black;
+}
+
+.quiz-container h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.quiz-container ul li {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.quiz-container button {
+    margin: auto;
+    width: 180px; /* Reduced width */
+    height: 50px; /* Reduced height */
+    background-color: #446ff2;
+    color: white;
+    font-size: 20px; /* Reduced font size */
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-container button:hover {
+    background-color: #0056b3;
+}
+
+.quiz-container .index {
+    margin: auto;
+    font-size: 18px;
+}
+
+/* Correct answer styling */
+.correct {
+    background-color: #c8e6c9; /* Light green background */
+    color: #2e7d32; /* Dark green text */
+    font-weight: bold;
+}
+
+/* Wrong answer styling */
+.wrong {
+    background-color: #ffcdd2; /* Light red background */
+    color: #c62828; /* Dark red text */
+    font-weight: bold;
+}
+
+/* Review item container */
+.review-item {
+    margin-bottom: 20px;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+.dropdown-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Styled dropdown */
+.styled-dropdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Focus state for dropdown */
+.styled-dropdown:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+/* Hover state for dropdown */
+.styled-dropdown:hover {
+    background-color: #f1f1f1;
+}
+
+/* Start button */
+.start-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 180px; /* Reduced width */
+    height: 50px; /* Reduced height */
+}
+
+/* Start button hover state */
+.start-button:hover {
+    background-color: #0056b3;
+}

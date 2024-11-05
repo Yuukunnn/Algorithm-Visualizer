@@ -1,0 +1,22 @@
+.userAvatar {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 4%;
+}
+
+.startMockInterviewBtn {
+  min-width: 250px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  color: #446ff2;
+  background-color: #f8f9fa;
+  border: 1px solid #446ff2;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+.startMockInterviewBtn:hover {
+  box-shadow: 0 8px 15px rgba(190, 198, 223, 0.3);
+}

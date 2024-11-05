@@ -1,0 +1,16 @@
+.inputRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.inputRow.password {
+  width: 40%;
+  margin: auto;
+}
+
+.submitContainer {
+  width: 80%;
+  margin: 5% auto;
+  display: flex;
+  justify-content: center;
+}

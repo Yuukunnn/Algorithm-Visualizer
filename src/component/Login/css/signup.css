@@ -1,0 +1,59 @@
+.signUpContainer {
+  width: 90vw;
+  height: 80vh;
+  padding: 10vh 5vw 5vh 5vw;
+  display: flex;
+}
+
+.signUpImageContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUpImage {
+  width: 80%;
+  position: relative;
+  top: -5%;
+}
+
+.signUpBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 70%;
+  padding: 10% 0;
+}
+
+.signUpTitle {
+  width: 70%;
+  min-width: 400px;
+  height: 15%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.signUpForm {
+  width: 80%;
+  height: 65%;
+  margin: 5% 5% 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signUpActionContainer {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.successfulContainer {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}

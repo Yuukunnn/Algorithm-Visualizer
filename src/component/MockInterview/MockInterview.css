@@ -1,0 +1,98 @@
+/* =========== main ============ */
+.stepContainer {
+  width: 80vw;
+  min-height: 60vh;
+  margin: auto;
+  padding: 5%;
+}
+
+/* ====== Skills Form ========= */
+.MockInterviewContainer {
+  width: 50vw;
+  height: 35vh;
+  margin: auto;
+  padding: 3%;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.InterviewIntroduction {
+  height: 5vh;
+  margin: 40px auto;
+  text-align: center;
+  padding: 0 5%;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* ====== Calendar ========= */
+
+.calendarContainer {
+  width: 100%;
+  min-height: 80%;
+  margin: auto;
+  padding: 5%;
+}
+
+.matchNowContainer {
+  width: 80%;
+  max-height: 45vh;
+  margin: 2% 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.enterNewAvails {
+  width: 80% !important;
+  max-height: 45vh;
+  margin: 2% 5%;
+  /* border: 1px solid red; */
+}
+
+.sectionHeader {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.timeslotContainer {
+  width: 100%;
+  max-height: 40vh;
+  overflow-y: auto;
+  overflow-x: unset;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeslot {
+  min-width: 600px;
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #b6b7b7;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeslot:hover {
+  background-color: #ecf1f7; /* Light blue background on hover */
+}
+
+.timeslot.selected {
+  background-color: #ecf1f7;
+}
+
+/* ====== Confirmation Page ========= */
+.confirmationContainer {
+  width: 80%;
+  min-height: 80%;
+  margin: auto;
+  padding: 5%;
+  font-size: 20px;
+  background-color: #f8f9fa;
+}

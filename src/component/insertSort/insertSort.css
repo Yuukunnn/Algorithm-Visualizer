@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Teko:wght@300..700&display=swap");
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 7rem; /* Add padding of 7rem on each side */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  border: none;
+}
+
+.insert-container {
+  display: flex;
+  width: 100%;
+}
+
+.insert-btn {
+  width: 350px; /* Set a fixed width */
+  height: 60px; /* Set a fixed height */
+  padding: 0.5rem 7rem;
+  background-color: #446ff2;
+  border-radius: 1rem;
+  font-size: 1.9rem;
+  font-weight: 300;
+  font-family: "Teko", sans-serif;
+  transition: all 0.4s;
+  margin: 0 0 0 4rem;
+  border: none;
+  color: white;
+}
+
+.insert-btn:hover {
+  transition: all 0.4s;
+  background-color: #3c63d8;
+  cursor: pointer;
+}
+
+.insert-btn:active {
+  background-color: #446ff2;
+  transition: 0.1s;
+}
+
+.insert-video-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.insert-vid {
+  width: 100%;
+  height: 370px;
+  border-radius: 10px;
+}
+
+.insert-description {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: justify;
+  margin: 0 2rem 0 2rem;
+  width: 600%;
+}
+
+.insert-link {
+  text-decoration: none;
+  color: #666;
+}
+
+@media (max-width: 900px) {
+  .section-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .insert-description {
+    margin: 35px;
+  }
+}
+
+@media (min-width: 900px) {
+  .section-container {
+    width: 100%;
+    margin: 0 9em;
+    width: 80%;
+  }
+
+  .insert-description {
+    width: 70%;
+  }
+}

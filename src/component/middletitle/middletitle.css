@@ -1,0 +1,26 @@
+.md-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Center align vertically */
+  margin: 5vh 5vh 10vh; /* Center container vertically */
+}
+
+.middle-title {
+  font-size: 3rem; /* Set font size */
+  color: #333; /* Set text color */
+  font-family: "Teko", sans-serif; /* Apply Teko font */
+  font-weight: 300; /* Set font weight to 300 */
+}
+
+@media(max-width:520px) {
+  .md-container {
+    position: static;
+    margin: 1rem 0;
+    width: 90%;
+    display: flex;
+  }
+
+  .middle-title {
+    font-size: 2.3rem;
+  }
+}

@@ -1,0 +1,52 @@
+.binary-search-visualizer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .controls label {
+    margin-right: 20px;
+  }
+  
+  .array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+    height: 200px;
+  }
+  
+  .array-element {
+    width: 30px;
+    margin: 0 5px;
+    background-color: #5bc9b1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .array-element.mid {
+    background-color: #f39c12;
+  }
+  
+  .array-element.searching {
+    background-color: #e74c3c;
+  }
+  
+  .array-element.found {
+    background-color: #2ecc71;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
